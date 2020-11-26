@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-container-fluid class="mt-4">
-  <b-jumbotron header="School Help" lead="Children with special needs matter">
+  <b-jumbotron header="Special School Directory" lead="Children with special needs matter">
     <p></p>
     <router-link to="hello"><b-button variant="secondary">Learn More</b-button></router-link>
   </b-jumbotron>

@@ -67,8 +67,143 @@ export default {
            phone: '+234 (0)803 453 4990',
            mail: 'opendoorsng@gmail.com',
            website: ''
-         }
-
+         },
+          {
+             name: 'Patrick Speech and Language Centre',
+           details: 'Their mission is to create a world class centre for individual living with Autism in Nigeria. Speech language therapy is the treatment for most children with speech and/or language disorders. A speech disorder refers to a problem with the actual production of sounds, whereas a language disorder refers to a difficulty understanding or putting words together to communicate ideas.',
+           address: '13b Fani Kayode Street, GRA Ikeja, Lagos.',
+           phone: '+234-803 301 9865 +234-0705 502 8215',
+           mail: ' info@pslcautism-ng.org, dakande@pslcautism-ng.org, dakande2002@yahoo.com',
+           website: 'http://www.pslcautism-ng.org/'
+         },
+          {
+             name: 'The Zamarr Institute',
+           details: 'The concept of the Zamarr Institute was born in 1991 to promote excellence in educational and training opportunities for exceptional children when the founder returned to Nigeria from studying abroad. It had always been her idea to establish a centre of high standard like she had seen in the United States and the United Kingdom. The dream was now realized in 2006 when she felt the need for such a centres was paramount.',
+           address: 'LEA Nursery & Primary School,  Patrick O. Bokkor Crescent, Off Ebitu Ukiwe Street, Jabi, Abuja.',
+           phone: '+ 2348098143671, +2348098659760',
+           mail: 'info@thezamarrinstitute.org',
+           website: 'https://thezamarrinstitute.org/'
+         },
+         {
+             name: 'Comrade David Ofoeyeno School For Special Children',
+           details: 'Comrade David Ofoeyeno School For Special Children is special needs school for children living with autism and other related challenges. Boarding facilities is available with full air-condition class-rooms. etc.',
+           address: 'DSC township Orhuwhorun, Warri Delta State',
+           phone: '08054707148',
+           mail: '',
+           website: ''
+         },
+          {
+             name: 'Special Needs Kids Warri',
+           details: 'The Vision is that infants and children with various disabilities will benefit from early life programs and achieve maximization of their potential for development.  Thus in the long term, would emerge artists, craftsmen, other vocational achievers, even professionals particularly among the blind and hearing impaired.',
+           address: 'No.17, Refnery road Effurn Warri, Delta State',
+           phone: '+234-8023438780',
+           mail: 'nigerwives@specialneedskidswarri.com',
+           website: 'http://specialneedskidswarri.com/'
+         },
+          {
+             name: 'Step One Special Care',
+           details: 'Step One Special Care is a one on one therapy with children with special needs to help them become better and independent.',
+           address: '512 Rd, B Close, House 6, Festac Town, Lagos Nigeria',
+           phone: '0806 045 1980',
+           mail: '',
+           website: ''
+         },
+          {
+             name: 'Hope House Initiative',
+           details: 'Hope House Initiative is committed to provide a caring and safe environment so as to: Passionately champion the cause of all children and adults with special needs, Assist them in patience and love to achieve their optimum potential. We aim to discover, cultivate, develop and support the skills and talents inherent in them. With our team of specialist therapists, educators and vocational trainers, provide good quality education. Our methods are tailored to support the individual person’s development towards leading a more independent life.',
+           address: 'Plot 61 Dahiru Sale Street off road 622, 6th Avenue Gwarimpa (Directly Opp. AEDC Office), Abuja',
+           phone: '+234 (0) 813 733 3081',
+           mail: 'info@hopehouseinitiative.com, administrator@hopehouseinitiative.com, hr@hopehouseinitiative.com',
+           website: 'http://hopehouseinitiative.com/'
+         },
+          {
+             name: 'Do-Estdot International School',
+           details: 'DoEstdot provides Educational services for hearing, hearing impaired and atypical students. DoEstdot currently caters to students in the crèche, nursery, primary and secondary departments. An enterprising couple nurtured its conception with the sole aim creating a school that prepared students, without regard for background, for a future of service, excellence and leadership. The couples’ experience raising two hearing-impaired daughters is fundamental to DoEstdot’s commitment to an educational experience that is mind-deep and lifelong.',
+           address: ' 4/14/16, Ifelodun Street, Off Oladun Street, Council B/Stop, Idimu, Lagos, Nigeria',
+           phone: '08138345023 , 08164824623, 08130070242',
+           mail: 'info@doestdot.sch.ng',
+           website: 'http://www.doestdot.sch.ng/'
+         },
+          {
+             name: 'Distinct Abilities',
+           details: 'Distinct Abilities focuses on providing awareness about disabilities, providing therapies and strategies in teaching children with disabilities and also educating teachers, parents on behavioral approach to support children with disabilities.',
+           address: 'N/a',
+           phone: '0908 347 2253, 0805 351 3496',
+           mail: '',
+           website: 'https://distinctabilities.business.site/'
+         },
+          {
+             name: 'Disability Empowerment Solution',
+           details: 'Disability Empowerment Solution [DES] is a Non-governmental, Non-profit making, Charitable and Empowerment organization that engage in various activities to meet the needs and yearnings of persons with disabilities.',
+           address: '22, Alaafin Avenue, Oluyole Estate Road, Ibadan',
+           phone: '0807 450 5252',
+           mail: 'desnigeria@aol.com',
+           website: 'http://desinigeria.org/'
+         },
+          {
+             name: 'Child Developmental Therapy Services',
+           details: 'Child Developmental Therapy is concerned about special children with communication difficulties, problem with writing skills and delayed eating, toileting and dressing skills.',
+           address: '15 Omolola Street, Surulere, Lagos Nigeria',
+           phone: '+234 809 877 5031',
+           mail: '',
+           website: ''
+         },
+          {
+             name: 'Centre for Autism and Developmental Disabilities',
+           details: 'Centre for Autism and Developmental Disabilities (CADD) is a non-governmental organization focusing on autism spectrum disorders and related developmental disabilities providing educational learning and training',
+           address: '2 Chika Omo Street, Off Nnebisi Road, Asaba, Delta State Nigeria',
+           phone: '0816 342 8389',
+           mail: '',
+           website: 'http://caddnigeria.org/'
+         },
+          {
+             name: 'Benny Child Care Services Outreach',
+           details: 'Benny Child Care Services is concerned about (children with special needs) with communication difficulties, problem with handwriting skills, behavioral problems and delayed eating, toileting and dressing skills.',
+           address: '13 Adamu Fika Street, 1st Gate, Lifecamp District FCT Abuja Nigeria, FCT Abuja Nigeria',
+           phone: '0809 877 5031',
+           mail: '',
+           website: ''
+         },
+         {
+             name: 'Royal School Of Educational Therapy Foundation',
+           details: 'We are a non-profit private school comprising of General Education and Special Education services for students (Kindergarten to High School for General Education; Kindergarten to Adulthood for Special Education) services for students with and without disabilities.We prepare pupils in General Education for University Education and pupils in Special Education for Vocational Life-Long Skills',
+           address: 'Plot 194, 4461 Crescent (Abubakar Ali Gombe Street) Close to Christ Chosen Group of Schools Citec Villa, off 4th/6th Avenue by the Citec Gate Gwarinpa Abuja, FCT Nigeria',
+           phone: '0803 953 0275, 0906 041 0074',
+           mail: 'rsetfoundation@gmail.com, info@rseducationaltherapy.com',
+           website: 'http://rseducationaltherapy.com/'
+         },
+          {
+             name: 'Ri-Care Therapy',
+           details: 'Ri-Care Therapy are licensed behavior therapist and special educators that specializes on providing therapy and facilitation to children with learning disabilities such as autism, down syndrome, asperger, cerebral palsy and others.',
+           address: 'Ri-Care Therapy Lekki-Epe Expressway, Lagos Island, Lagos Nigeria',
+           phone: '0803 384 4189, 0809 969 7552',
+           mail: '',
+           website: ''
+         },
+         {
+             name: 'Disability Rights Advocacy Center - DRAC',
+           details: 'Disability Rights Advocacy Center is an Abuja based non-governmental organisation that protects the human rights of persons with disabilities, thereby encouraging independent living and increase their inclusion in the development agenda.',
+           address: 'Plot 142, Durunmi District, off Victor Ndoma Egba Street, Before American International School, Durumi District 2, F.C.T Abuja Nigeria',
+           phone: '0811 532 6607',
+           mail: 'drac.nigeria@gmail.com,info@drac-ng.org',
+           website: 'http://www.drac-ng.org/'
+         },
+          {
+             name: 'Blazing Heart Autism Center',
+           details: 'Blazing Heart Autism Centre is a visionary non-profit establishment designed to meet the needs of current and future generation of children with special needs and their families',
+           address: "31C,Ohiamini Close. Behind Wokocha's Playground by Wholeman, Hospital Rd, Rukpakulosi Town, Port Harcourt",
+           phone: '0802 999 8884',
+           mail: '',
+           website: ''
+         },
+         {
+             name: 'Benola',
+           details: 'Our Vision:An inclusive Africa in which those living with Cerebral Palsy get proper recognition and are given equal opportunity to fully develop and exploit their potentials. Our mission: To become the lead supportive agency on Cerebral Palsy in Africa and a leading advocate for the rights of those living with limitations.',
+           address: "Suite 19/20, Praise Plaza, Ajah, Addo Rd, Lekki",
+           phone: '0817 097 3349',
+           mail: 'info@benola.org',
+           website: 'https://www.benola.org/'
+         },
         ]
     }
   }
