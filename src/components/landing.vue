@@ -1,10 +1,15 @@
 <template>
   <div>
     <b-container-fluid class="mt-4">
-  <b-jumbotron header="Special School Directory" lead="Children with special needs matter">
+  <b-jumbotron header="Special School Directory" class="bg-info" lead="Children with special needs matter">
     <p></p>
-    <router-link to="hello"><b-button variant="secondary">Learn More</b-button></router-link>
+    <router-link to="schools"><b-button class="btn-light">Find School</b-button></router-link>
   </b-jumbotron>
+  <b-row class="m-4 justify-content-center">
+    <b-col class="ml-4">
+      <iframe height="483" class="ml-4" width="90%" src="https://www.youtube.com/embed/_3ONz6TaKIk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </b-col>
+  </b-row>
 </b-container-fluid>
   </div>
 </template>
