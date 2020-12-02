@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import SchoolPage from '@/components/HelloWorld'
 import Landing from '@/components/landing'
 import Tests from '@/components/tests'
+import Learning from '@/components/learning'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/tests',
       name: 'Tests',
       component: Tests
+    },
+    {
+      path: '/learning',
+      name: 'Learning',
+      component: Learning
     }
   ]
 })
