@@ -12,6 +12,7 @@
 * Rating/Ranking for the schools to help Parents, Guardians and Clinicians decide easier.
 * FAQs Page
 * Treatments Page
+* Email Updates
 
 ## Build Setup
 
