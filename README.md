@@ -10,6 +10,8 @@
 * More information and learning resources on these learning disabilties.
 * At the moment, users can narrow down search for school by state, later on the filtering would be more detailed.
 * Rating/Ranking for the schools to help Parents, Guardians and Clinicians decide easier.
+* FAQs Page
+* Treatments Page
 
 ## Build Setup
 
