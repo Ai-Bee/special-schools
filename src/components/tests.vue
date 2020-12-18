@@ -9,8 +9,8 @@
           ><b-button variant="secondary">Get Started</b-button></router-link
         >
       </b-jumbotron>
-      <b-row class="justify-center m-4">
-        <b-col sm="6" md="4" class="my-3">
+      <b-row class="justify-content-center m-4">
+        <b-col sm="6" lg="4" class="my-3">
           <b-media class=" text-center m-auto p-4 rounded shadow">
             <h4 class="mt-0 mb-3 ">Dyslexia</h4>
             <p>
@@ -38,7 +38,7 @@
             >
           </b-media>
         </b-col>
-        <b-col sm="6" md="4" class="my-3">
+        <b-col sm="6" lg="4"  class="my-3">
           <b-media class=" text-center m-auto p-4 rounded shadow">
             <h4 class="mt-0 mb-3 ">Learning Disability Test</h4>
             <p>
@@ -68,7 +68,7 @@
             >
           </b-media>
         </b-col>
-        <b-col sm="6" md="4" class="my-3">
+        <b-col sm="6" lg="4"  class="my-3">
           <b-media class=" text-center m-auto p-4 rounded shadow">
             <h4 class="mt-0 mb-3 ">Dysgraphia</h4>
             <p>
@@ -97,7 +97,7 @@
             >
           </b-media>
         </b-col>
-        <b-col sm="6" md="4" class="my-3">
+        <b-col sm="6" lg="4" class="my-3">
           <b-media class=" text-center m-auto p-4 rounded shadow">
             <h4 class="mt-0 mb-3 ">Listening Comprehension Test</h4>
             <p>
@@ -124,7 +124,7 @@
             >
           </b-media>
         </b-col>
-        <b-col sm="6" md="4" class="my-3">
+        <b-col sm="6" lg="4" class="my-3">
           <b-media class=" text-center m-auto p-4 rounded shadow">
             <h4 class="mt-0 mb-3 ">Emotional and Behavioral Problems Test</h4>
             <p>
@@ -153,7 +153,7 @@
             >
           </b-media>
         </b-col>
-        <b-col sm="6" md="4" class="my-3">
+        <b-col sm="6" lg="4"  class="my-3">
           <b-media class=" text-center m-auto p-4 rounded shadow">
             <h4 class="mt-0 mb-3 ">Dyspraxia</h4>
             <p>
@@ -183,7 +183,7 @@
             >
           </b-media>
         </b-col>
-        <b-col sm="6" md="4" class="my-3">
+        <b-col sm="6" lg="4"  class="my-3">
           <b-media class=" text-center m-auto p-4 rounded shadow">
             <h4 class="mt-0 mb-3 ">Dyscalculia</h4>
             <p>
@@ -212,6 +212,7 @@
           </b-media>
         </b-col>
       </b-row>
+        <!-- Images by <a href="https://pixabay.com/users/aymanfakhry1999-11277305/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4608518">aymanfakhry1999</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4608518">Pixabay</a> -->
     </b-container-fluid>
   </div>
 </template>
@@ -246,5 +247,15 @@ div.media {
 }
 a:hover {
   text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+  .jumbotron{
+    padding: 1rem;
+    font-size: large;
+  }
+  .jumbotron h4{
+    color: #02584c;
+    font-size: 1.9rem;
+  }
 }
 </style>

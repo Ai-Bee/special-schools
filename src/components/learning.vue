@@ -5,7 +5,7 @@
         <h3 class="">Learn More About These Disorders</h3>
         <p>You can provide better help if you understand them better</p>
       </b-jumbotron>
-      <b-row class="my-4 ml-4 justify-content-center">
+      <b-row class="my-4 justify-content-center">
         <b-col class="ml-4">
           <iframe
             height="483"
@@ -132,5 +132,10 @@ export default {
 }
 .list-group-item:hover {
   background-color: #00ae95;
+}
+@media only screen and (max-width: 600px) {
+  iframe{
+    height: 283px;
+  }
 }
 </style>

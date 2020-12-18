@@ -10,20 +10,23 @@
         >
       </b-jumbotron>
       <div>
-        <b-row class="m-4 p-4 text-right justify-content-end">
-          <b-col sm="7" class=" rounded">
-            <h5 class="p-4">
-              Learning disabilities or learning disorders are umbrella terms for
-              a wide variety of learning problems. A learning disability is not
-              a problem with intelligence or motivation and kids with learning
-              disabilities aren’t lazy or dumb. In fact, most are just as smart
-              as everyone else. Their brains are simply wired differently—and
-              this difference affects how they receive and process information.
-            </h5>
-          </b-col>
-        </b-row>
+        <div  id='first'>
+          <!-- <img src="../assets/pexels-julia-m-cameron.jpg"> -->
+          <b-row class="m-4 p-4 text-right justify-content-end">
+            <b-col sm="7" class=" rounded">
+              <h4 class="p-4">
+                Learning disabilities or learning disorders are umbrella terms for
+                a wide variety of learning problems. A learning disability is not
+                a problem with intelligence or motivation and kids with learning
+                disabilities aren’t lazy or dumb. In fact, most are just as smart
+                as everyone else. Their brains are simply wired differently—and
+                this difference affects how they receive and process information.
+              </h4>
+            </b-col>
+          </b-row>
+        </div>
         <b-row class="m-4 p-4 text-center text-light justify-content-around">
-          <b-col sm="5" class="rounded" id="partOne">
+          <b-col sm="5" class="rounded mx-2" id="partOne">
             <p class="custom-text">
               A 2017 report in 19 middle- and low-income countries on inclusive
               education by the World Bank and GPE concluded that 3 in 10
@@ -33,7 +36,7 @@
               margins of society.
             </p>
           </b-col>
-          <b-col sm="5" class="rounded" id="partTwo">
+          <b-col sm="5" class="rounded mx-2" id="partTwo">
             <p class="custom-text">
               In Nigeria, a country with the highest number of out-of-school
               children in the world, determining the percentage of children with
@@ -57,7 +60,6 @@ export default {
   name: "HelloWorld",
   data() {
     return {
-      msg: "Welcome to Your Vue.js App"
     };
   }
 };
@@ -72,33 +74,64 @@ export default {
   background-repeat: no-repeat;
 }
 .custom-text {
-  padding-top: 20%;
+  padding-top: 25rem;
   line-height: 2rem;
   font-weight: bolder;
+  color: #414040;
+  font-size: medium;
+}
+#first{
+  background-image: url('../assets/pexels-julia-m-cameronMinified.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 25rem;
+  background-position-y: center; 
 }
 #partTwo {
-  background-image: url("../assets/lilSimba.jpg");
-  background-color: #d4d3c5;
+  background-image: url("../assets/childTwoMinified.jpg");
+  background-color: #dcdfe4;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: inherit;
   background-size: 100%;
   transition: all 2s;
 }
 #partOne {
-  background-image: url("../assets/cuteBaby.jpg");
-  background-color: #f1ede4;
+  background-image: url("../assets/kids-minified.jpg");
+  background-color: aliceblue;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: inherit;
   background-size: 100%;
   transition: all 2s;
 }
 #partTwo:hover,
-#partTwo:active {
-  background-size: 60%;
-  filter: grayscale(75%);
-}
+#partTwo:active,
 #partOne:hover,
 #partOne:active {
-  background-size: 60%;
+  filter: grayscale(75%);
+}
+@media only screen and (max-width: 768px) {
+  #first h4 {
+    font-size: larger;
+  }
+  .custom-text {
+    padding-top: 12rem;
+    font-size: small;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #first{
+    padding-right: 0;
+    background-position-y: inherit; 
+    height: 17rem;
+  }
+  #first h4{
+    font-size: inherit;
+    margin-right: -3em;
+    padding-top: 10px !important;
+    padding-right: 5px !important;
+  }
+  #partTwo{
+    margin-top: 30px;
+  }
 }
 </style>
