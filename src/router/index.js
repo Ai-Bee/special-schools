@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import SchoolPage from '@/components/HelloWorld'
+import SchoolPage from '@/components/schools'
 import Landing from '@/components/landing'
 import Tests from '@/components/tests'
 import Learning from '@/components/learning'
