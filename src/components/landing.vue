@@ -57,7 +57,7 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "Homepage",
   data() {
     return {
     };
