@@ -25,7 +25,9 @@
       <b-row>
         <template v-for="(school, index) in schools">
           <b-col sm="12" md="6" class="my-3" :key="index" v-if="school.show">
-            <b-media class=" text-left m-auto p-4 rounded shadow">
+            <b-media class=" text-left m-auto p-4 rounded shadow" data-aos="slide-right"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1500">
               <h2 class="mt-0 mb-3 ">{{ school.name }}</h2>
               <p class="mb-1 text-light">
                 {{ school.details }}

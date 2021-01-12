@@ -5,11 +5,8 @@
         <h4>Worried your child may have a learning disability?</h4>
         <p>Take online test</p>
         <p>These tests are fully standard and authorized</p>
-        <router-link to="schools"
-          ><b-button variant="secondary">Get Started</b-button></router-link
-        >
       </b-jumbotron>
-      <b-row class="justify-content-center m-4">
+      <b-row class="justify-content-center m-4" id="allTests">
         <b-col sm="6" lg="4" class="my-3">
           <b-media class=" text-center m-auto p-4 rounded shadow">
             <h4 class="mt-0 mb-3 ">Dyslexia</h4>
@@ -232,6 +229,7 @@ export default {
   background-image: url("../assets/Hinterrhein.png"),
     linear-gradient(to right, #fff, #f8f9fb, #dcdfe4, #a0a1a3);
   background-size: 100%;
+  background-blend-mode: color-burn;
   background-origin: padding-box;
   background-repeat: no-repeat;
 }
@@ -254,7 +252,6 @@ a:hover {
     font-size: large;
   }
   .jumbotron h4{
-    color: #02584c;
     font-size: 1.9rem;
   }
 }
