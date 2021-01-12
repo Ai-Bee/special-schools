@@ -1,7 +1,9 @@
 <template>
   <div>
     <b-container-fluid class="mt-4">
-      <b-jumbotron class="bg-transparent">
+      <b-jumbotron class="bg-transparent" data-aos="slide-up"
+     data-aos-easing="ease-in-cubic"
+     data-aos-duration="1300">
         <h2>Welcome to the Inclusive Learning Hub</h2>
         <router-link to="schools"
           ><b-button class="btn-light" variant="secondary"
@@ -10,11 +12,13 @@
         >
       </b-jumbotron>
       <div>
-        <div  id='first'>
+        <div data-aos="slide-up"
+     data-aos-easing="ease-in-cubic"
+     data-aos-duration="1300" id='first'>
           <!-- <img src="../assets/pexels-julia-m-cameron.jpg"> -->
           <b-row class="m-4 p-4 text-right justify-content-end">
             <b-col sm="7" class=" rounded">
-              <h4 class="p-4">
+              <h4 class="p-2">
                 Learning disabilities or learning disorders are umbrella terms for
                 a wide variety of learning problems. A learning disability is not
                 a problem with intelligence or motivation and kids with learning
@@ -25,7 +29,9 @@
             </b-col>
           </b-row>
         </div>
-        <b-row class="m-4 p-4 text-center text-light justify-content-around">
+        <b-row class="m-4 p-4 text-center text-light justify-content-around" data-aos="slide-up"
+     data-aos-easing="ease-in-cubic"
+     data-aos-duration="1300">
           <b-col sm="5" class="rounded mx-2" id="partOne">
             <p class="custom-text">
               A 2017 report in 19 middle- and low-income countries on inclusive
@@ -81,11 +87,17 @@ export default {
   font-size: medium;
 }
 #first{
-  background-image: url('../assets/pexels-julia-m-cameronMinified.jpg');
+  background-image: url('../assets/pexels-julia-m-cameronMinified.jpg'),  linear-gradient(to right, #183669, #fff, #f8f9fb, #dcdfe4);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 25rem;
+  background-blend-mode: normal;
   background-position-y: center; 
+}
+#first h4{
+    font-weight: 630;
+    color:black;
+    line-height: revert;
 }
 #partTwo {
   background-image: url("../assets/childTwoMinified.jpg");
@@ -118,15 +130,21 @@ export default {
     font-size: small;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 425px) {
   #first{
     padding-right: 0;
     background-position-y: inherit; 
     height: 17rem;
+    background-blend-mode: screen;
+    background-image: url('../assets/pexels-julia-m-cameronMinified.jpg'), 
+     linear-gradient(to right, #0c2a5e, #305596, #dcdfe4, #f8f9fb);
   }
   #first h4{
     font-size: inherit;
+    font-weight: bolder;
     margin-right: -3em;
+    margin-top: -1em;
+    z-index: 20;
     padding-top: 10px !important;
     padding-right: 5px !important;
   }

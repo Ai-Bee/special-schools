@@ -2,7 +2,7 @@
   <div id="app">
     <div>
   <b-navbar toggleable="lg" type="dark" id='pageNav'>
-    <b-navbar-brand href="/"><router-link class="text-dark" to="/">School Aid</router-link></b-navbar-brand>
+    <b-navbar-brand href="/"><strong>School Aid</strong></b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -36,8 +36,20 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 #app{
   background-image: linear-gradient(to right, #fff, #f8f9fb, #dcdfe4, #a0a1a3);
+  font-family: 'Ubuntu', sans-serif !important;
+}
+a.navbar-brand>strong{
+  transition: all 0.7s ease-out;
+  color: rgba(0, 0, 0, 0.726) !important;
+}
+a.navbar-brand:hover > strong{
+  color: #f8f9fb !important;
+}
+a.navbar-brand:hover{
+  color: #f8f9fb !important;
 }
 #pageNav, #pageFooter{
    background:linear-gradient(90deg, #007991 0%,#78ffd6 100% );
@@ -56,7 +68,7 @@ a{
   color: rgb(66, 66, 66);
   text-decoration: none !important;
 }
-ul.navbar-nav a:hover{
+.navbar-nav a:hover{
   color: #f8f9fb !important;
   text-decoration: none !important;
 }

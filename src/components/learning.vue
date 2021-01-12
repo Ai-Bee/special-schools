@@ -1,11 +1,15 @@
 <template>
   <div>
     <b-container-fluid class="mt-4">
-      <b-jumbotron class="text-left">
+      <b-jumbotron class="text-left" data-aos="zoom-right"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1500">
         <h3 class="">Learn More About These Disorders</h3>
         <p>You can provide better help if you understand them better</p>
       </b-jumbotron>
-      <b-row class="my-4 justify-content-center">
+      <b-row class="my-4 justify-content-center" data-aos="zoom-right"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1500">
         <b-col class="ml-4">
           <iframe
             height="483"
@@ -21,7 +25,9 @@
       <div>
         <h4 class="text-center">Useful Learning Resources</h4>
         <b-row class="m-4 p-4 text-center justify-content-around">
-          <b-col sm="5" class="rounded">
+          <b-col sm="5" class="rounded" data-aos="slide-right"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1500">
             <b-list-group>
               <b-list-group-item
                 ><b-link target="_blank" href="https://ldaamerica.org"
@@ -61,7 +67,9 @@
               >
             </b-list-group>
           </b-col>
-          <b-col sm="5" class="rounded">
+          <b-col sm="5" class="rounded" data-aos="slide-right"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1500">
             <b-list-group>
               <b-list-group-item
                 ><b-link
